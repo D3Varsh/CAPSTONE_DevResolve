@@ -1,6 +1,8 @@
 import React,{useState, useEffect} from "react";
 import {Link} from "react-router-dom"; // Link -> Navigates to the "Ask Questions" page without reloading
 import axios from "axios"; //  axios → Makes an API request to get questions from the backend.
+import SignIn from "./SignIn";
+import SignUp from "./SignUp";
 
 
 function Home(){
